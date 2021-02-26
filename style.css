@@ -40,10 +40,7 @@ section{
     height: 420px;
 }
 
-main{
-    /* background-color: #0486FC; */
-    /* height: 400px; */
-}
+
 
 .clearfix::after{
     content: "";
@@ -58,20 +55,17 @@ main{
 
 .testo{
     background-color: white; 
-    margin-bottom: 20px;
-
-      
+    margin-bottom: 20px;    
  }
+
 
  aside, article{
     margin-bottom: 20px;
 }
 
 
-
 aside, article{
     float: left;
-    /* height: 280px; */
 }
 
 aside{
@@ -93,7 +87,6 @@ article{
 
 footer{
     text-align: center;
-  
     margin-top: 50px;
 }
 

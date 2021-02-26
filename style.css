@@ -21,6 +21,18 @@ header img{
     border-right: 2px solid #F3F3F3
 }
 
+.clearfix ul li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+
+.clearfix ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #B0AFB0
+}
+
 section{
     background-color: #E2D67A;
     height: 300px;
@@ -37,12 +49,12 @@ main{
     clear: both;
 }
 
-nav, aside, article{
+.testo, aside, article{
     background-color: #AACDE4;
     margin-bottom: 20px;
 }
 
-nav{
+.testo{
     height: 80px;      
 }
 

@@ -14,9 +14,11 @@
     margin-top: 20px;
 }
 
-header{
-    background-color: #E579E6;
-    height:100px;
+
+header img{
+    width: 150px;
+    padding-right: 15px;
+    border-right: 2px solid #F3F3F3
 }
 
 section{

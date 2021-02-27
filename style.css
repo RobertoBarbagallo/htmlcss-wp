@@ -22,6 +22,13 @@ header img{
     border-right: 2px solid #F3F3F3
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .clearfix ul li{
     list-style: none;
     float: left;
@@ -38,24 +45,19 @@ section{
     background: url(img/banner.jpg);
     background-position: center;
     height: 420px;
+    opacity: 0.7;
+    padding: 20% 50% 10% 10%;
 }
 
-
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .testo-container{
-    color: white;
-    padding: 280px 50% 30px 30px;  
+    color: black;
 }
 
+
+
 .testo{
-    background-color: white; 
-    margin-bottom: 20px;    
+    margin-bottom: 50px;    
  }
 
 
@@ -94,7 +96,12 @@ footer{
     width: 100%;
     height: 250px;
     background-position: center;
-    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+aside > p, article > p{
+    padding-top: 20px;
+
 }
 
 #first{
@@ -114,4 +121,11 @@ footer{
 footer span{
     color: red;
 }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
 
